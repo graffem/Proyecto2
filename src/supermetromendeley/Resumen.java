@@ -1,3 +1,5 @@
+package supermetromendeley;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -7,7 +9,8 @@
  *
  * @author 7juli
  */
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class Resumen {
     int Key;
@@ -34,5 +37,14 @@ public class Resumen {
     public String getAutores() {
         return Autores;
     }
+
+    public void setKey(int Key) {
+        this.Key = Key;
+    }
+    
+    public void Analize() {
+        
+    }
+    
 
 }
